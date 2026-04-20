@@ -244,6 +244,7 @@
                 },
                 {
                   "name": "text",
+                  "id": "ref",
                   "selector": "div>div>h1"
                 }
               ]
