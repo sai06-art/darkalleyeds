@@ -204,7 +204,7 @@
       },
       {
         "component": "select",
-        "name": "classes_backgroundOption",
+        "name": "style_backgroundOption",
         "label": "Background Option",
         "description": "Select the Background Option",
         "value": "color",
@@ -222,7 +222,7 @@
       },
       {
         "component": "select",
-        "name": "classes_backgroundColor",
+        "name": "style_backgroundColor",
         "label": "Background Color",
         "value": "background-none",
         "description": "Background color for the section (if Color is chosen)",
@@ -230,7 +230,7 @@
         "condition": {
           "===": [
             {
-              "var": "classes_backgroundOption"
+              "var": "style_backgroundOption"
             },
             "color"
           ]
