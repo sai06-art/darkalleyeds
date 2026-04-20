@@ -267,6 +267,14 @@
                 {
                   "name": "author",
                   "selector": "div:nth-child(2)>div"
+                },
+                {
+                  "name": "backgroundOption",
+                  "selector": "div:nth-child(3)>div"
+                },
+                {
+                  "name": "backgroundColor",
+                  "selector": "div:nth-child(4)>div"
                 }
               ]
             }
