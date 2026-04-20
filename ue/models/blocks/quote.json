@@ -33,7 +33,79 @@
           "name": "author",
           "label": "Author",
           "valueType": "string"
-        }
+        },
+        {
+        "component": "select",
+        "name": "backgroundOption",
+        "label": "Background Option",
+        "description": "Select the Background Option",
+        "value": "color",
+        "required": true,
+        "options": [
+          {
+            "name": "Color",
+            "value": "color"
+          },
+          {
+            "name": "Image",
+            "value": "image"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "backgroundColor",
+        "label": "Background Color",
+        "value": "background-none",
+        "description": "Background color for the section (if Color is chosen)",
+        "required": true,
+        "condition": {
+          "===": [
+            {
+              "var": "backgroundOption"
+            },
+            "color"
+          ]
+        },
+        "options": [
+          {
+            "name": "None",
+            "value": "background-none"
+          },
+          {
+            "name": "Surface-1",
+            "value": "background-surface-1"
+          },
+          {
+            "name": "Surface-2",
+            "value": "background-surface-2"
+          },
+          {
+            "name": "Surface-3",
+            "value": "background-surface-3"
+          },
+          {
+            "name": "Surface-4",
+            "value": "background-surface-4"
+          },
+          {
+            "name": "Surface-base",
+            "value": "background-surface-base"
+          },
+          {
+            "name": "Surface-neutral",
+            "value": "background-surface-neutral"
+          },
+          {
+            "name": "Surface-inverse-1",
+            "value": "background-surface-inverse-1"
+          },
+          {
+            "name": "Surface-inverse-2",
+            "value": "background-surface-inverse-2"
+          }
+        ]
+      }
       ]
     }
   ],
