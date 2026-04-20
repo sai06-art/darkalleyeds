@@ -245,6 +245,7 @@
                 {
                   "name": "text",
                   "id": "ref",
+                  "class": "classsssIII",
                   "selector": "div>div>h1"
                 }
               ]
