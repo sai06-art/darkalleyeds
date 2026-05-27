@@ -207,6 +207,70 @@
         "name": "bgtext",
         "label": "Background Text",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Title Font Size",
+        "description": "Select the font size for the title",
+        "options": [
+          {
+            "name": "100px",
+            "value": "title-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "title-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "title-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "title-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "title-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "title-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "title-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "title-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "title-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "title-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "classes_titlestyle",
+        "label": "Accordion Title Style",
+        "description": "Select the style applied to Title for all Accordion items",
+        "options": [
+          {
+            "name": "Use Standard Title",
+            "value": "titlestyle-standardTitle"
+          },
+          {
+            "name": "Use Stylized Title",
+            "value": "titlestyle-stylizedTitle"
+          }
+        ]
       }
     ]
   },
