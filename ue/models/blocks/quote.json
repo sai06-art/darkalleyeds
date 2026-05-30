@@ -12,7 +12,8 @@
           "fields": [
             { "name": "quote", "selector": "div:nth-child(1)>div"},
             { "name": "author", "selector": "div:nth-child(3)>div"},
-            { "name": "bgtext", "selector": "div:nth-child(2)>div"}
+            { "name": "bgtext", "selector": "div:nth-child(2)>div"},
+            {"name": "breadcrumbType","selector": "div:nth-child(4)>div"}
           ]
         }
       }

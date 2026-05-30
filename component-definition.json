@@ -271,6 +271,10 @@
                 {
                   "name": "bgtext",
                   "selector": "div:nth-child(2)>div"
+                },
+                {
+                  "name": "breadcrumbType",
+                  "selector": "div:nth-child(4)>div"
                 }
               ]
             }
