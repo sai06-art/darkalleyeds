@@ -10,22 +10,9 @@
           "rows": 1,
           "columns": 1,
           "fields": [
-            {
-              "name": "quote",
-              "selector": "div:nth-child(1)>div"
-            },
-            {
-              "name": "author",
-              "selector": "div:nth-child(3)>div"
-            },
-            {
-              "name": "bgtext",
-              "selector": "div:nth-child(2)>div"
-            },
-            {
-              "name": "breadcrumbType",
-              "selector": "div:nth-child(4)>div"
-            }
+            { "name": "quote", "selector": "div:nth-child(1)>div"},
+            { "name": "author", "selector": "div:nth-child(3)>div"},
+            { "name": "bgtext", "selector": "div:nth-child(2)>div"}
           ]
         }
       }
@@ -48,94 +35,76 @@
           "label": "Author",
           "valueType": "string"
         },
-        {
+         {
           "component": "text",
           "name": "bgtext",
           "label": "Background Text",
           "valueType": "string"
         },
-        {
-          "component": "select",
-          "name": "classes",
-          "label": "Title Font Size",
-          "description": "Select the font size for the title",
-          "options": [
-            {
-              "name": "100px",
-              "value": "title-fs-100px"
-            },
-            {
-              "name": "60px",
-              "value": "title-fs-60px"
-            },
-            {
-              "name": "48px",
-              "value": "title-fs-48px"
-            },
-            {
-              "name": "36px",
-              "value": "title-fs-36px"
-            },
-            {
-              "name": "32px",
-              "value": "title-fs-32px"
-            },
-            {
-              "name": "28px",
-              "value": "title-fs-28px"
-            },
-            {
-              "name": "24px",
-              "value": "title-fs-24px"
-            },
-            {
-              "name": "20px",
-              "value": "title-fs-20px"
-            },
-            {
-              "name": "16px",
-              "value": "title-fs-16px"
-            },
-            {
-              "name": "14px",
-              "value": "title-fs-14px"
-            }
-          ]
-        },
-        {
-          "component": "select",
-          "name": "classes_titlestyle",
-          "label": "Accordion Title Style",
-          "description": "Select the style applied to Title for all Accordion items",
-          "options": [
-            {
-              "name": "Use Standard Title",
-              "value": "titlestyle-standardTitle"
-            },
-            {
-              "name": "Use Stylized Title",
-              "value": "titlestyle-stylizedTitle"
-            }
-          ]
-        },
-        {
-          "component": "select",
-          "name": "breadcrumbType",
-          "label": "Breadcrumb Type",
-          "description": "Select type of breadcrumb desired",
-          "required": true,
-          "value": "complete",
-          "options": [
-            {
-              "name": "Partial",
-              "value": "partial"
-            },
-            {
-              "name": "Complete",
-              "value": "complete"
-            }
-          ]
-        }
+          {
+        "component": "select",
+        "name": "classes",
+        "label": "Title Font Size",
+        "description": "Select the font size for the title",
+        "options": [
+          {
+            "name": "100px",
+            "value": "title-fs-100px"
+          },
+          {
+            "name": "60px",
+            "value": "title-fs-60px"
+          },
+          {
+            "name": "48px",
+            "value": "title-fs-48px"
+          },
+          {
+            "name": "36px",
+            "value": "title-fs-36px"
+          },
+          {
+            "name": "32px",
+            "value": "title-fs-32px"
+          },
+          {
+            "name": "28px",
+            "value": "title-fs-28px"
+          },
+          {
+            "name": "24px",
+            "value": "title-fs-24px"
+          },
+          {
+            "name": "20px",
+            "value": "title-fs-20px"
+          },
+          {
+            "name": "16px",
+            "value": "title-fs-16px"
+          },
+          {
+            "name": "14px",
+            "value": "title-fs-14px"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "classes_titlestyle",
+        "label": "Accordion Title Style",
+        "description": "Select the style applied to Title for all Accordion items",
+        "options": [
+          {
+            "name": "Use Standard Title",
+            "value": "titlestyle-standardTitle"
+          },
+          {
+            "name": "Use Stylized Title",
+            "value": "titlestyle-stylizedTitle"
+          }
+        ]
+      }
       ]
     }
   ],
