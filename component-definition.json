@@ -275,10 +275,6 @@
                 {
                   "name": "breadcrumbType",
                   "selector": "div:nth-child(4)>div"
-                },
-                {
-                  "name": "classes_titlestyle",
-                  "selector": "div:nth-child(5)>div"
                 }
               ]
             }

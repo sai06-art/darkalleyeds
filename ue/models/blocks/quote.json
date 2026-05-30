@@ -13,8 +13,7 @@
             { "name": "quote", "selector": "div:nth-child(1)>div"},
             { "name": "author", "selector": "div:nth-child(3)>div"},
             { "name": "bgtext", "selector": "div:nth-child(2)>div"},
-            {"name": "breadcrumbType","selector": "div:nth-child(4)>div"},
-            {"name": "classes_titlestyle","selector": "div:nth-child(5)>div"}
+            {"name": "breadcrumbType","selector": "div:nth-child(4)>div"}
           ]
         }
       }
@@ -124,7 +123,18 @@
                   "value": "complete"
                 }
               ]
-            }
+            },
+            {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      }
       ]
     }
   ],
